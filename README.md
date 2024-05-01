@@ -10,7 +10,7 @@
 # Diagram
 ![Diagram](valorem.drawio.png)
 ---
-# Improvements
+# Future Improvements
 1. Usage of transaction for db commits
 2. Handling DLQs
 3. Notification/Transaction consumer individual validation instead of whole array
