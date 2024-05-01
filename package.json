@@ -1,0 +1,32 @@
+{
+  "name": "rest-api",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "sst dev",
+    "build": "sst build",
+    "deploy": "sst deploy",
+    "remove": "sst remove",
+    "console": "sst console",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@tsconfig/node18": "^18.2.4",
+    "@types/lodash": "^4.17.0",
+    "@types/uuid": "^9.0.8",
+    "aws-cdk-lib": "2.132.1",
+    "constructs": "10.3.0",
+    "sst": "^2.41.4",
+    "typescript": "^5.4.5"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "lodash": "^4.17.21",
+    "uuid": "^9.0.1",
+    "zod": "^3.23.4"
+  }
+}
