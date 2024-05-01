@@ -35,7 +35,7 @@
 ```
 ---
 2. Creating HMAC Signiture, in the root there is a file `signature-generator.js` that converts your payload to signature, 
-replace the existing `messageData` with your payload, and attach to request header as `Authorization: HMAC_SHA256 {GENERATED_SIGNATURE}`
+replace the existing `messageData` with your payload, and attach to request header as `Authorization: HMAC_SHA256 {GENERATED_SIGNATURE}`, run `node signature-generator.js` and copy the generated signature.
 
 3. Calling the webhook, creating transactions, wallet
 `POST {API_GATEWAY_URL}/wallet/webhook`
